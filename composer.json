@@ -1,0 +1,21 @@
+{
+    "name": "omidsaifpanahi/yii2-converter",
+    "description": "projecrt tset for extenstions",
+    "type": "yii2-extension",
+    "keywords": ["Convert Shamsi date to Gregorian"],
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "omid.saifpanahi",
+            "email": "omid.saifpanahi1991@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "omidsaifpanahi\\converter\\": ""
+        }
+    }
+}
