@@ -18,4 +18,10 @@
             "omidsaifpanahi\\converter\\": ""
         }
     }
+	"repositories":[
+    {
+        "type": "git",
+        "url": "https://path.to/your/repo"
+    }
+]
 }
