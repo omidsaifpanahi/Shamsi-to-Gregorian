@@ -25,7 +25,29 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+For using this asset bundle you need just add this line `'airani\bootstrap\BootstrapRtlAsset'` in `$depends` of `AppAsset` or any asset bundels you work that.
+
+Example:
+
+```php
+namespace backend\assets;
+
+use yii\web\AssetBundle;
+
+class AppAsset extends AssetBundle
+{
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
+    public $css = [
+        'css/site.css',
+    ];
+    public $depends = [
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
+        'airani\bootstrap\BootstrapRtlAsset',
+    ];
+}
+```
 
 ```php
 <?= \omidsaifpanahi\converter\AutoloadExample::widget(); ?>```
