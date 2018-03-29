@@ -12,7 +12,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-		"airani/yii2-bootstrap-rtl": "*",
+		"airani/yii2-bootstrap-rtl": "*"
     },
     "autoload": {
         "psr-4": {
