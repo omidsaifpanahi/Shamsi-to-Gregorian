@@ -16,7 +16,7 @@ class Converter extends \yii\base\Widget
 
     public function convertOnline()
     {
-        $string = <<<HEREDOC
+        $string = <<<ABC
    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">تبدیل تاریخ و ساعت</button>
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
@@ -298,8 +298,8 @@ class Converter extends \yii\base\Widget
 
     </div>
 </div>
-HEREDOC;
+ABC;
         return $string;
     }
 }
-HEREDOC;
+
